@@ -1,3 +1,52 @@
 body{
-    background-color: aquamarine;
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('imagens/fundo.png');
+}
+
+span{
+    padding: 15px;
+}
+
+p{
+    margin: 8px;
+}
+
+#imgfundo{
+    margin: 5px;
+    border: 10px solid rgb(194, 194, 147)
+}
+
+#imgCapa{
+    width: 100%;
+}
+
+#main{
+    width: 70%;
+}
+
+.about{
+    border: 1px solid rgb(212, 214, 203);
+    background-color: rgb(212, 214, 203);
+}
+
+.links{
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(194, 194, 147);
+}
+
+.h3{
+    margin: 20px;
+    color: rgb(146, 146, 37);
+}
+
+
+.rodape{
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
 }
