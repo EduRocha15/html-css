@@ -1,0 +1,38 @@
+body{
+  margin: 0px;
+  background-color: aliceblue;
+  font-size: 20px;
+}
+
+p{
+  text-align: right;
+  margin: 0px;
+}
+
+#main{
+  background-color: rgb(196, 160, 229);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button{
+  padding: 15px;
+  text-align: center;
+}
+
+.conteudo{
+  width: 550px;
+  height: 400px;
+  background-color: blueviolet;
+  border-radius: 20px;
+  display: grid;
+  place-items: center; /* Centraliza horizontal e verticalmente */
+}
+
+.footer{
+  margin: 15px 0px;
+  font-size: 13px;
+}
