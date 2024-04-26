@@ -1,0 +1,27 @@
+body{
+   margin: 0px;
+   background-color: rgb(238, 238, 238);
+}
+
+th{
+   border-bottom: 1px solid rgb(180, 180, 180);
+   text-align: left;
+}
+
+.classificacao{
+   border-bottom: 1px solid rgb(116, 116, 116);
+   border-right: 1px solid rgb(116, 116, 116);
+}
+
+.minititulos{
+   border-bottom: 1px solid rgb(116, 116, 116);
+}
+
+.rightCol{
+   border-bottom: 1px solid rgb(180, 180, 180);
+   border-right: 1px solid rgb(116, 116, 116);
+}
+
+.par{
+   background-color: rgb(207, 207, 207);
+}
