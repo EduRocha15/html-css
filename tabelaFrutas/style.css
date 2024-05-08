@@ -1,0 +1,22 @@
+body{
+  margin: 0px;
+  background-color: antiquewhite;
+}
+
+table{
+  width: 30vw;
+  height: 200px;
+  background-color: aliceblue;
+}
+
+tfoot{
+  font-weight: bold;
+}
+
+.fruta{
+  width: 40px;
+}
+
+.title{
+  font-size: 30px;
+}
