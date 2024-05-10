@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+</head>
+<body>
+  <div>
+    <form method="get" action="">
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <label>
+          Nome:<br>
+          <input type="text" name="nome">
+        </label><br>
+        <label>
+          Endereço:<br>
+          <input type="text" name="endereco">
+        </label><br>
+        <label>
+          Cidade:<br>
+          <input type="text" name="cidade">
+        </label><br>
+        <label>
+          Estado:
+          <select name="estado">
+            <option value="es">Espírito Santo</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="sp">São Paulo</option>
+          </select>
+        </label>
+        </fieldset><br>
+        <fieldset>
+          <legend>Dados profissionais</legend>
+            Naturez do cargo:<br>
+            <input type="radio" name="cargo" value="gerencia">Gerência
+            <input type="radio" name="cargo" value="financeiro">Financeiro
+            <input type="radio" name="cargo" value="recepcao">Recepção
+            <input type="radio" name="cargo" value="administrativo">Administrativo
+            <input type="radio" name="cargo" value="juridico">Judídico
+            <br><br>
+            Área de interesse:<br>
+            <input type="checkbox" name="interesse">Computação
+            <input type="checkbox" name="interesse">Biologia
+            <input type="checkbox" name="interesse">Meio Ambiente
+            <input type="checkbox" name="interesse">Engenharia
+            <input type="checkbox" name="interesse">História
+            <br><br>
+            Mini-Curriculo:<textarea ></textarea>
+        </fieldset><br>
+        <input type="submit" value="Enviar">
+        <input type="button" value="Limpar">
+    </form>
+  </div>
+</body>
+</html>
